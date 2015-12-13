@@ -12,7 +12,14 @@
 		47491C201C1CA482007A7816 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47491C1F1C1CA482007A7816 /* ViewController.m */; };
 		47491C221C1CA482007A7816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47491C211C1CA482007A7816 /* Assets.xcassets */; };
 		47491C251C1CA482007A7816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47491C231C1CA482007A7816 /* Main.storyboard */; };
-		47491C301C1CA482007A7816 /* MixedTDDSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47491C2F1C1CA482007A7816 /* MixedTDDSampleTests.m */; };
+		47491C3C1C1CA4A8007A7816 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47491C3B1C1CA4A8007A7816 /* Vehicle.m */; };
+		47491C3F1C1CA4D5007A7816 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47491C3E1C1CA4D5007A7816 /* Engine.swift */; };
+		47491C421C1CA593007A7816 /* VehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47491C411C1CA593007A7816 /* VehicleTests.swift */; };
+		47491C431C1CA7A4007A7816 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47491C3E1C1CA4D5007A7816 /* Engine.swift */; };
+		47491C441C1CA7B0007A7816 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47491C3B1C1CA4A8007A7816 /* Vehicle.m */; };
+		47491C551C1E01B4007A7816 /* MixedTDDEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47491C541C1E01B4007A7816 /* MixedTDDEngineTests.swift */; };
+		47491C5A1C1E01CC007A7816 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47491C3E1C1CA4D5007A7816 /* Engine.swift */; };
+		47491C601C1E0C01007A7816 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47491C3B1C1CA4A8007A7816 /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +43,17 @@
 		47491C241C1CA482007A7816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47491C261C1CA482007A7816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47491C2B1C1CA482007A7816 /* MixedTDDSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedTDDSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47491C2F1C1CA482007A7816 /* MixedTDDSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixedTDDSampleTests.m; sourceTree = "<group>"; };
 		47491C311C1CA482007A7816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47491C3A1C1CA4A8007A7816 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		47491C3B1C1CA4A8007A7816 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		47491C3D1C1CA4D4007A7816 /* MixedTDDSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedTDDSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		47491C3E1C1CA4D5007A7816 /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		47491C401C1CA593007A7816 /* MixedTDDSampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedTDDSampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		47491C411C1CA593007A7816 /* VehicleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleTests.swift; sourceTree = "<group>"; };
+		47491C521C1E01B4007A7816 /* MixedTDDEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedTDDEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47491C541C1E01B4007A7816 /* MixedTDDEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedTDDEngineTests.swift; sourceTree = "<group>"; };
+		47491C561C1E01B4007A7816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47491C5F1C1E02E4007A7816 /* MixedTDDEngineTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedTDDEngineTests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47491C4F1C1E01B4007A7816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +86,7 @@
 			children = (
 				47491C171C1CA482007A7816 /* MixedTDDSample */,
 				47491C2E1C1CA482007A7816 /* MixedTDDSampleTests */,
+				47491C531C1E01B4007A7816 /* MixedTDDEngineTests */,
 				47491C161C1CA482007A7816 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +96,7 @@
 			children = (
 				47491C151C1CA482007A7816 /* MixedTDDSample.app */,
 				47491C2B1C1CA482007A7816 /* MixedTDDSampleTests.xctest */,
+				47491C521C1E01B4007A7816 /* MixedTDDEngineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +112,10 @@
 				47491C231C1CA482007A7816 /* Main.storyboard */,
 				47491C261C1CA482007A7816 /* Info.plist */,
 				47491C1B1C1CA482007A7816 /* Supporting Files */,
+				47491C3A1C1CA4A8007A7816 /* Vehicle.h */,
+				47491C3B1C1CA4A8007A7816 /* Vehicle.m */,
+				47491C3E1C1CA4D5007A7816 /* Engine.swift */,
+				47491C3D1C1CA4D4007A7816 /* MixedTDDSample-Bridging-Header.h */,
 			);
 			path = MixedTDDSample;
 			sourceTree = "<group>";
@@ -102,10 +131,21 @@
 		47491C2E1C1CA482007A7816 /* MixedTDDSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				47491C2F1C1CA482007A7816 /* MixedTDDSampleTests.m */,
 				47491C311C1CA482007A7816 /* Info.plist */,
+				47491C411C1CA593007A7816 /* VehicleTests.swift */,
+				47491C401C1CA593007A7816 /* MixedTDDSampleTests-Bridging-Header.h */,
 			);
 			path = MixedTDDSampleTests;
+			sourceTree = "<group>";
+		};
+		47491C531C1E01B4007A7816 /* MixedTDDEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				47491C541C1E01B4007A7816 /* MixedTDDEngineTests.swift */,
+				47491C561C1E01B4007A7816 /* Info.plist */,
+				47491C5F1C1E02E4007A7816 /* MixedTDDEngineTests-Bridging-Header.h */,
+			);
+			path = MixedTDDEngineTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,12 +186,30 @@
 			productReference = 47491C2B1C1CA482007A7816 /* MixedTDDSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		47491C511C1E01B4007A7816 /* MixedTDDEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47491C571C1E01B4007A7816 /* Build configuration list for PBXNativeTarget "MixedTDDEngineTests" */;
+			buildPhases = (
+				47491C4E1C1E01B4007A7816 /* Sources */,
+				47491C4F1C1E01B4007A7816 /* Frameworks */,
+				47491C501C1E01B4007A7816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixedTDDEngineTests;
+			productName = MixedTDDEngineTests;
+			productReference = 47491C521C1E01B4007A7816 /* MixedTDDEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		47491C0D1C1CA482007A7816 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Bordewich Software";
 				TargetAttributes = {
@@ -161,6 +219,9 @@
 					47491C2A1C1CA482007A7816 = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = 47491C141C1CA482007A7816;
+					};
+					47491C511C1E01B4007A7816 = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
@@ -179,6 +240,7 @@
 			targets = (
 				47491C141C1CA482007A7816 /* MixedTDDSample */,
 				47491C2A1C1CA482007A7816 /* MixedTDDSampleTests */,
+				47491C511C1E01B4007A7816 /* MixedTDDEngineTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +262,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47491C501C1E01B4007A7816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -207,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47491C3C1C1CA4A8007A7816 /* Vehicle.m in Sources */,
 				47491C201C1CA482007A7816 /* ViewController.m in Sources */,
 				47491C1D1C1CA482007A7816 /* main.m in Sources */,
 				47491C1A1C1CA482007A7816 /* AppDelegate.m in Sources */,
+				47491C3F1C1CA4D5007A7816 /* Engine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47491C301C1CA482007A7816 /* MixedTDDSampleTests.m in Sources */,
+				47491C441C1CA7B0007A7816 /* Vehicle.m in Sources */,
+				47491C421C1CA593007A7816 /* VehicleTests.swift in Sources */,
+				47491C431C1CA7A4007A7816 /* Engine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47491C4E1C1E01B4007A7816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47491C551C1E01B4007A7816 /* MixedTDDEngineTests.swift in Sources */,
+				47491C5A1C1E01CC007A7816 /* Engine.swift in Sources */,
+				47491C601C1E0C01007A7816 /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,11 +409,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MixedTDDSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.trobe.MixedTDDSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTDDSample/MixedTDDSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,11 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MixedTDDSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.trobe.MixedTDDSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTDDSample/MixedTDDSample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -350,11 +438,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(CONFIGURATION_TEMP_DIR)/MixedTDDSample.build/DerivedSources\"";
 				INFOPLIST_FILE = MixedTDDSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.trobe.MixedTDDSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MixedTDDSampleTests;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTDDSampleTests/MixedTDDSampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixedTDDSample.app/Contents/MacOS/MixedTDDSample";
 			};
 			name = Debug;
@@ -363,12 +455,42 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(CONFIGURATION_TEMP_DIR)/MixedTDDSample.build/DerivedSources\"";
 				INFOPLIST_FILE = MixedTDDSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.trobe.MixedTDDSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MixedTDDSampleTests;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTDDSampleTests/MixedTDDSampleTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixedTDDSample.app/Contents/MacOS/MixedTDDSample";
+			};
+			name = Release;
+		};
+		47491C581C1E01B4007A7816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(CONFIGURATION_TEMP_DIR)/MixedTDDSample.build/DerivedSources\"";
+				INFOPLIST_FILE = MixedTDDEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.trobe.MixedTDDEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTDDEngineTests/MixedTDDEngineTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47491C591C1E01B4007A7816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(CONFIGURATION_TEMP_DIR)/MixedTDDSample.build/DerivedSources\"";
+				INFOPLIST_FILE = MixedTDDEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.trobe.MixedTDDEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTDDEngineTests/MixedTDDEngineTests-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -397,6 +519,14 @@
 			buildConfigurations = (
 				47491C381C1CA482007A7816 /* Debug */,
 				47491C391C1CA482007A7816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47491C571C1E01B4007A7816 /* Build configuration list for PBXNativeTarget "MixedTDDEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47491C581C1E01B4007A7816 /* Debug */,
+				47491C591C1E01B4007A7816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
